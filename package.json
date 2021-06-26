@@ -1,0 +1,13 @@
+{
+  "name": "gdo6-bootstrap5",
+  "version": "6.10.4",
+  "description": "Bootstrap5 module for GDO6",
+  "main": "Module_Bootstrap5.php",
+  "repository": "https://github.com/gizmore/gdo6-bootstrap5",
+  "author": "gizmore",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5",
+	"@popperjs/core": "^2"
+  }
+}
