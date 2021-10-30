@@ -14,7 +14,7 @@ use GDO\Javascript\Module_Javascript;
 final class Module_Bootstrap5 extends GDO_Module
 {
     public $module_priority = 25;
-
+    
     ##############
     ### Assets ###
     ##############
