@@ -29,7 +29,7 @@ final class Module_Bootstrap5 extends GDO_Module
     public function getConfig()
     {
         return [
-            GDT_Checkbox::make('bs5_icons')->initial('1'),
+            GDT_Checkbox::make('bs5_icons')->initial('0'),
         ];
     }
     public function cfgIcons() { return $this->getConfigVar('bs5_icons'); }
