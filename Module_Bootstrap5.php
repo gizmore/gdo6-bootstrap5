@@ -49,9 +49,9 @@ final class Module_Bootstrap5 extends GDO_Module
     public function onIncludeScripts()
     {
         $min = Module_Javascript::instance()->jsMinAppend();
-        $this->addBowerJavascript("@popperjs/core/dist/umd/popper{$min}.js");
+        $this->addBowerJS("@popperjs/core/dist/umd/popper{$min}.js");
         $this->addBowerCSS("bootstrap/dist/css/bootstrap{$min}.css");
-        $this->addBowerJavascript("bootstrap/dist/js/bootstrap{$min}.js");
+        $this->addBowerJS("bootstrap/dist/js/bootstrap{$min}.js");
         if ($this->cfgIcons())
         {
             $this->addBowerCSS("bootstrap-icons/font/bootstrap-icons.css");
